@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanzir Organic Skincare</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Tanzir Logo" class="logo" />
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#categories">Category</a></li>
+        <li><a href="#sale">Sale</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Rooted in Nature. Refined by You.</h1>
+    <p>Discover your glow with Tanzir's handcrafted organic skincare</p>
+  </section>
+
+  <section id="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <button onclick="filterCategory('Soap')">Soaps</button>
+      <button onclick="filterCategory('Oil')">Hair Oils</button>
+      <button onclick="filterCategory('Shampoo')">Shampoos</button>
+      <button onclick="filterCategory('Serum')">Serums</button>
+    </div>
+  </section>
+
+  <section id="shop">
+    <h2>Our Products</h2>
+    <div class="product-grid" id="productGrid">
+      <!-- Products inserted here dynamically -->
+    </div>
+  </section>
+
+  <section id="sale">
+    <h2>Special Offers</h2>
+    <p>Get 15% off on all hair serums this week!</p>
+  </section>
+
+  <section id="about">
+    <h2>Our Story</h2>
+    <p>Tanzir is a luxurious, nature-rooted skincare brand committed to purity, simplicity, and elegance. Inspired by earthy tones and organic living, we celebrate skin’s natural glow with soulful self-care rituals.</p>
+    <ul>
+      <li>100% Organic Ingredients</li>
+      <li>Handmade with care</li>
+      <li>Cruelty-Free & Sustainable</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tanzir Skincare. All rights reserved.</p>
+    <p>Instagram: @tanzirorganics | WhatsApp: +92 300 0000000</p>
+  </footer>
+</body>
+</html>
